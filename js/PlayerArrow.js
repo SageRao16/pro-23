@@ -8,7 +8,7 @@ class PlayerArrow {
     this.height = height;
 
     // this.body = Bodies.rectangle(x, y, this.width, this.height);
-    // this.body = Body.rectangle(x, y, this.width, this.height, options);
+    this.body = Body.rectangle(x, y, this.width, this.height, options);
     // this.body = Bodies.rectangle(x, y, options);
     // this.body = Bodies.rectangle(x, y, this.width, this.height, options);
     
